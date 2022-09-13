@@ -23,7 +23,7 @@ public class TodoEntity {
     @GenericGenerator(name = "system=uuid", strategy = "uuid")
     private String id; //Object id
     private String userId; //User id who create this object
-    private String title; //Todo title(etc. go to gym..)
+    private String title; //Todo_title(etc. go to gym..)
     private boolean done; //if complete the 'todo', it will be true
 
 }
